@@ -1,10 +1,8 @@
 class CreateStatuses < ActiveRecord::Migration
   def change
-    create_table :statuses do |t|
-      t.string :name
-      t.text :content
-
-      t.timestamps
+  	  add_column :statuses, :user_id, :integer
+  	  add_index :statuses, :user_id
+  	  remove_column :statuses, :name
     end
   end
 end
