@@ -3,3 +3,9 @@ tyler:
   last_name: "testing"
   email: "franktesting@gmail.com"
   profile_name: "franktesting"
+
+jason: 
+  first_name: "jason"
+  last_name: "seifer"
+  email: "jason@teamtreehouse.com"
+  profile_name: "jasonseifer"
